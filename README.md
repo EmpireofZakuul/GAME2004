@@ -8,7 +8,8 @@
 * Email: robbogucki@gmail.com
 
 ## Resources
-
+Commander Cody
+The time has come, Execte Order 66
 #### Unity/C# Scripting:
 - [Unity User Manual](https://docs.unity3d.com/Manual/index.html)
 - [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
