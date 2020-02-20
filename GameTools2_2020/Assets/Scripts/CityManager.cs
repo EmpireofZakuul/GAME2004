@@ -15,7 +15,7 @@ namespace GRIDCITY
         public Material[] materialArray;
         public Transform buildingPrefab;
         public BuildingProfile[] profileArray;
-
+        public bool [] cityArray;
         public static CityManager Instance
         {
             get
@@ -29,6 +29,11 @@ namespace GRIDCITY
         #endregion
 
         #region Methods
+
+        public void CheckSlot()
+        {
+
+        }
         #region Unity Methods
 
         // Use this for internal initialization
