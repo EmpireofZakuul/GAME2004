@@ -15,7 +15,7 @@ namespace GRIDCITY
         public Material[] materialArray;
         public Transform buildingPrefab;
         public BuildingProfile[] profileArray;
-        public bool [] cityArray;
+        private bool[,,,] cityArray = new bool [11, 11, 11,];
         public static CityManager Instance
         {
             get
@@ -30,9 +30,9 @@ namespace GRIDCITY
 
         #region Methods
 
-        public void CheckSlot()
+        public void CheckSlot( int x, int y, int z)
         {
-
+            //if (x < 0 || x > 10 || y < 0 || y > 10 || z < 0 || z > 10) return true;
         }
         #region Unity Methods
 
